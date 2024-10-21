@@ -9,6 +9,17 @@ Dataset with about 9000 images containing 5 types of arts
 4. Graphic Art
 5. Iconography (old Russian art)
 
+## Model Comparison
+
+In this project, several models were used to evaluate and compare their performance on the test images. The models utilized include:
+
+- **VGG16**
+- **VGG19**
+- **InceptionV3**
+- **MobileNetV2**
+
+Each model was tested to assess its effectiveness in classifying artistic representations, providing insights into their respective strengths and weaknesses in handling non-standard image data.
+
 **All process and methods can be found in the model [VGG16](https://github.com/NannapatVis/art_classifications/blob/main/Train_IMGVGG16.ipynb "VGG16"),  [VGG19](https://github.com/NannapatVis/art_classifications/blob/main/Train_IMGVGG19.ipynb "VGG19"),  [InceptionV3](https://github.com/NannapatVis/art_classifications/blob/main/InceptionV3-3.ipynb "InceptionV3") And [MobileNetV2](https://github.com/NannapatVis/art_classifications/blob/main/Train_IMGMobileNetV2.ipynb "MobileNetV2")**
 
 ## Test Images
