@@ -28,6 +28,25 @@ Each model was tested to assess its effectiveness in classifying artistic repres
 
 ![Test Image](./testPic.jpg)
 
+## Test Results Summary
+
+| Model          | Time (minutes) | Training Phase | Test Set        | Training Accuracy | Training Loss | Validation Time | Validation Accuracy | Validation Loss |
+|----------------|----------------|----------------|------------------|-------------------|---------------|------------------|--------------------|------------------|
+| **VGG16**      | 30:39          | 3:23           | 1:05             | 88.90%            | 0.303         | 0:45             | 96.60%             | 0.122            |
+| **VGG19**      | 39:24          | 4:24           | 0:15             | 86.10%            | 0.424         | 0:46             | 94.72%             | 0.178            |
+| **InceptionV3**| 28:41          | 4:02           | 0:57             | 64.95%            | 1.937         | 0:18             | 14.02%             | 4.183            |
+| **MobileNetV2**| 4:17           | 0:39           | 0:11             | 91.82%            | 0.477         | 1:50             | 98.87%             | 0.039            |
+
+## Test Results Summary (Single Image Prediction)
+
+| Model          | Drawing | Engravings | Sculptures | Painting | Iconography | Predicted Class |
+|----------------|---------|------------|------------|----------|-------------|------------------|
+| **VGG16**      | 31.49%  | 0.75%      | 7.77%      | 54.29%   | 5.70%       | painting          |
+| **VGG19**      | 0.05%   | 0.01%      | 0.86%      | 97.03%   | 2.04%       | painting          |
+| **InceptionV3**| 14.44%  | 18.66%     | 23.84%     | 23.90%   | 19.16%      | painting          |
+| **MobileNetV2**| 0.06%   | 0.00%      | 0.00%      | 99.36%   | 0.58%       | painting          |
+
+
 ## Acknowledgements
 
 This project utilizes code from the following repository:
