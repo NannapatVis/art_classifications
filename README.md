@@ -13,6 +13,12 @@ Dataset with about 9000 images containing 5 types of arts
 
 **All process and methods can be found in the model [VGG16](https://github.com/NannapatVis/art_classifications/blob/main/Train_IMGVGG16.ipynb "VGG16"),  [VGG19](https://github.com/NannapatVis/art_classifications/blob/main/Train_IMGVGG19.ipynb "VGG19"),  [InceptionV3](https://github.com/NannapatVis/art_classifications/blob/main/InceptionV3-3.ipynb "InceptionV3") And [MobileNetV2](https://github.com/NannapatVis/art_classifications/blob/main/Train_IMGMobileNetV2.ipynb "MobileNetV2")**
 
+## Test Images
+
+![Test Image](./testPic.jpg)
+
+
+
 ## Acknowledgements
 
 This project utilizes code from the following repository:
