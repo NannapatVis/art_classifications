@@ -1,5 +1,5 @@
 # **ClassPic**
-## (Art Image Classification using using CNN)
+(Art Image Classification using using CNN)
 **Dataset :** 
 Art Images: Dataset : Art Images: Drawing/Painting/Sculptures/Engravings  [Click](https://www.kaggle.com/datasets/thedownhill/art-images-drawings-painting-sculpture-engraving "**Click**")
 ##### Detail : 
