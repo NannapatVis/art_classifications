@@ -24,9 +24,6 @@ Each model was tested to assess its effectiveness in classifying artistic repres
 
 **All processes and methods can be found in the model [VGG16](https://github.com/NannapatVis/art_classifications/blob/main/Train_IMGVGG16.ipynb), [VGG19](https://github.com/NannapatVis/art_classifications/blob/main/Train_IMGVGG19.ipynb), [InceptionV3](https://github.com/NannapatVis/art_classifications/blob/main/InceptionV3-3.ipynb), and [MobileNetV2](https://github.com/NannapatVis/art_classifications/blob/main/Train_IMGMobileNetV2.ipynb).**
 
-## Test Images
-
-![Test Image](./testPic.jpg)
 
 ## Test Results Summary
 
@@ -36,6 +33,10 @@ Each model was tested to assess its effectiveness in classifying artistic repres
 | **VGG19**      | 39:24          | 4:24           | 0:15             | 86.10%            | 0.424         | 0:46             | 94.72%             | 0.178            |
 | **InceptionV3**| 28:41          | 4:02           | 0:57             | 64.95%            | 1.937         | 0:18             | 14.02%             | 4.183            |
 | **MobileNetV2**| 4:17           | 0:39           | 0:11             | 91.82%            | 0.477         | 1:50             | 98.87%             | 0.039            |
+
+## Test Images
+
+![Test Image](./testPic.jpg)
 
 ## Test Results Summary (Single Image Prediction)
 
