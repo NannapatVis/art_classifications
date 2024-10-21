@@ -32,6 +32,6 @@ Each model was tested to assess its effectiveness in classifying artistic repres
 
 This project utilizes code from the following repository:
 
-[Art Image Classifications by Imamun93](https://github.com/imamun93/animal-image-classifications/tree/master)
+[Animal Image Classifications by Imamun93](https://github.com/imamun93/animal-image-classifications/tree/master)
 
 The code used in this project is based on the implementation provided in the repository. The dataset used in this project, however, is different from the one in the original repository.
